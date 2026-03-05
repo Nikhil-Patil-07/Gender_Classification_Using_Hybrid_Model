@@ -135,3 +135,9 @@ Filename format: `[Age]_[Gender]_[Race]_[DateTime].jpg`
 
 ---
 
+🌐 Deployment
+The system is deployed as an interactive web application on Hugging Face Spaces using Gradio, supporting:
+
+🔗 Live Demo: https://huggingface.co/spaces/Nikhil0702/Gender_Classification_Using_Hybrid_Approach/tree/main
+
+
