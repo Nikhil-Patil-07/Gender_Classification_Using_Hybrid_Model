@@ -11,6 +11,24 @@ The system is trained and evaluated on the **UTKFace dataset** — a large-scale
 ---
 
 
+## 🗂️ Dataset
+
+**UTKFace Dataset** — Large-scale facial image dataset for demographic analysis.
+
+| Property | Details |
+|---|---|
+| Total Images | 23,000+ |
+| Labels | Age, Gender, Race (embedded in filename) |
+| Gender Labels | 0 = Female, 1 = Male |
+| Age Range | 0–116 years |
+| Race Groups | White, Black, Asian, Indian, Others |
+| Conditions | Unconstrained (real-world poses, lighting, occlusions) |
+| Used Labels | Gender only (binary classification) |
+
+Filename format: `[Age]_[Gender]_[Race]_[DateTime].jpg`
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -96,24 +114,6 @@ Input Facial Image (Grayscale → 128×128px)
 
 ---
 
-## 🗂️ Dataset
-
-**UTKFace Dataset** — Large-scale facial image dataset for demographic analysis.
-
-| Property | Details |
-|---|---|
-| Total Images | 23,000+ |
-| Labels | Age, Gender, Race (embedded in filename) |
-| Gender Labels | 0 = Female, 1 = Male |
-| Age Range | 0–116 years |
-| Race Groups | White, Black, Asian, Indian, Others |
-| Conditions | Unconstrained (real-world poses, lighting, occlusions) |
-| Used Labels | Gender only (binary classification) |
-
-Filename format: `[Age]_[Gender]_[Race]_[DateTime].jpg`
-
----
-
 ## ⚙️ Method & Approach
 
 1. **Preprocessing** — Images loaded in grayscale, resized to `128×128`, pixel values normalized to `[0, 1]`
@@ -140,4 +140,5 @@ The system is deployed as an interactive web application on Hugging Face Spaces 
 
 🔗 Live Demo: https://huggingface.co/spaces/Nikhil0702/Gender_Classification_Using_Hybrid_Approach/tree/main
 
+## 📝Download the train and saved models from the hugging face from the Main_py folder
 
