@@ -140,5 +140,6 @@ The system is deployed as an interactive web application on Hugging Face Spaces 
 
 🔗 Live Demo: https://huggingface.co/spaces/Nikhil0702/Gender_Classification_Using_Hybrid_Approach/tree/main
 
-## 📝Download the train and saved models from the hugging face from the Main_py folder
+## 📩Download the train and saved models from the hugging face from the Main_py folder
 
+### 📝NOTE: -If it is sleeping just click on the "Restart the Space"
